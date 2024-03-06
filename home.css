@@ -1,0 +1,277 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: peachpuff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-size: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 15px;
+}
+
+a {
+  padding-top: 10px;
+  display: inline-block;
+}
+
+button {
+  background-color: brown;
+  columns: wheat;
+  border-radius: 20px;
+  padding: 10px;
+  width: 60px;
+  border: none;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.article {
+  width: 75%;
+  margin-left: 40px;
+}
+
+.imgArticle {
+  width: 25%;
+}
+h1 {
+  font-size: 50px;
+}
+
+.firstSection {
+  display: flex;
+  padding-top: 50px;
+  justify-content: center;
+  background-color: peachpuff;
+}
+
+#btn {
+  width: 100px;
+}
+
+.played {
+  background-color: brown;
+  color: peachpuff;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+#recipe {
+  text-align: center;
+  font-size: 30px;
+}
+
+.headSecondSection {
+  text-align: center;
+}
+
+.bread {
+  opacity: 0.5;
+  margin-top: 15px;
+}
+
+.bread:hover {
+  color: brown;
+  background-color: peachpuff;
+}
+
+.circleImg {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 4px 5px 5px lightblue;
+  opacity: 0.5;
+  background-color: white;
+  border: none;
+}
+
+#imgj {
+  margin-left: 30px;
+}
+
+#burger {
+  margin-left: 120px;
+}
+
+#dollar {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 10px 10px 8px peachpuff;
+}
+
+.cardItem {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 80px;
+  font-size: 10px;
+  margin-left: 150px;
+}
+
+#button3 {
+  width: 100px;
+  height: 50px;
+  margin-left: 30px;
+  padding: 10px;
+  align-items: center;
+  border: 1px, solid white;
+  margin-top: 50px;
+}
+
+.thirdsection {
+  display: flex;
+  padding: 50px;
+  margin: 100px;
+  justify-content: space-between;
+}
+
+.image3 {
+  width: 200px;
+}
+
+.section3 {
+  margin: 20px;
+  justify-content: space-evenly;
+  background-color: brown;
+}
+
+.section3 h3 {
+  line-height: 1.5em;
+  margin-right: 150px;
+}
+
+.section3 p {
+  line-height: 1.5em;
+}
+
+#button2 {
+  margin-left: 350px;
+  margin-top: 50px;
+  padding: 10px;
+  width: 100px;
+}
+
+.section4 {
+  
+  padding-left: 200px;
+  padding-top: 100px;
+  margin-top: 50px;
+  row-gap: 2px;
+}
+
+.image4 {
+  display: flex;
+  padding-left: 200px;
+  margin-left: 200px;
+}
+
+.section5{
+   padding-left: 500px;
+   padding-top: 100px;
+   border:10px;
+   background-color: brown;
+   
+}
+
+.imgitem{
+  display: flex;
+  justify-content: center;
+  padding-right: 500px;
+  gap: 30px;
+ justify-content: space-evenly;
+ font-size: 20px;
+  
+}
+
+
+
+.section5 h2{
+  
+  align-items: center;
+  margin-bottom:100px;
+
+
+}
+#burger3{
+  display:contents;
+  padding-top: 250px;
+}
+
+
+
+
+
+@media (max-width: 800px) {
+  .imgArticle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width: 450px) {
+  .imgArticle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 40px;
+  }
+
+  .firstSection {
+    flex-wrap: wrap;
+  }
+
+  .played {
+    background-color: brown;
+    color: peachpuff;
+    padding: 15px;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width: 320px) {
+  .imgArticle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+
+  nav a {
+    display: block;
+  }
+}
+
+@media (max-width: 450px) {
+  .section3 {
+    margin: 50px;
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 450px) {
+  .image3 {
+    width: 200px;
+  }
+}
